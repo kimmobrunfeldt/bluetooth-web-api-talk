@@ -27,3 +27,5 @@ cd bluetooth-web-api
 npm install
 npm start & open http://localhost:8080
 ```
+
+Open console to see anything.
