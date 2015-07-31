@@ -1,0 +1,23 @@
+{
+  "name": "bluetooth-web-api",
+  "version": "1.0.0",
+  "description": "**Warning:** The API is very experimental!",
+  "main": "index.js",
+  "scripts": {
+    "start": "static -c .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kimmobrunfeldt/bluetooth-web-api"
+  },
+  "author": "Kimmo Brunfeldt <kimmobrunfeldt@gmail.com> (http://kimmobrunfeldt.github.io/)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kimmobrunfeldt/bluetooth-web-api/issues"
+  },
+  "homepage": "https://github.com/kimmobrunfeldt/bluetooth-web-api",
+  "dependencies": {
+    "node-static": "^0.7.7"
+  }
+}
