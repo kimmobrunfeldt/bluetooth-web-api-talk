@@ -52,8 +52,17 @@ document.querySelector('#find-devices').onclick = function() {
 };
 
 
-function onSuccess(data) {
-    console.log(data);
+function onSuccess(device) {
+    console.log('Connecting to', device, '..');
+
+    device.connectGATT()
+    .then(function(server) {
+        return server.getPrimaryService('heart_rate');
+    })
+    .then(function(service) {
+        // Do something with the GATT service
+        console.log(service);
+    });
 }
 
 function onError(err) {
